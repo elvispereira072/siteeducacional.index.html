@@ -114,3 +114,29 @@ footer {
   a:hover {
     color: blue;
   }
+
+  .button-icon {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    z-index: 9999;
+}
+
+.button-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.button-icon {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #f2f2f2;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button-icon img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
